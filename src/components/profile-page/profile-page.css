@@ -10,6 +10,11 @@
 .inline {
   display: inline-block;
   width: 30%;
+  font-size: 0.8rem;
+}
+.label {
+  font-weight: bold;
+  color: gray;
 }
 .detail-heading{
   border-bottom:1px solid gray;
