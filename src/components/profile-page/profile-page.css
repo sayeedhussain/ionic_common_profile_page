@@ -1,9 +1,21 @@
-
+.root {
+  font-family: sans-serif;
+}
 .hero {
   background-color: rgb(240, 240, 230);
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
+}
+.inline {
+  display: inline-block;
+  width: 30%;
+}
+.detail-heading{
+  border-bottom:1px solid gray;
+}
+.hero img {
+  width: 150px;
 }
 
 .left {

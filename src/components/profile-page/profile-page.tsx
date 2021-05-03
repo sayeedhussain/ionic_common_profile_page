@@ -10,22 +10,29 @@ export class ProfilePage {
 
   render() {
     return (
-          <div>
-            <div class="hero">
-              <img src="https://storage.pixteller.com/designs/designs-images/2016-11-19/02/thumbs/img_page_1_58305b35ebf5e.png"/>
-              <h1>Marco</h1>
-              <span class="title">Contact</span> <span>+9199889988</span>
-            </div>
-            <div>
-              <br/>
-              <br/>
-              <br/>
-              <span class="left">Completed Claims</span><span class="right numberCircle">10</span>
-              <br />
-              <br />
-              <span class="left">Pending Claims</span><span class="right numberCircle">2</span>
-            </div>
+      <div class="root">
+        <div class="hero">
+          <img src="https://research.cbc.osu.edu/sokolov.8/wp-content/uploads/2017/12/profile-icon-png-898.png" />
+          <h1>Marco</h1>
+          <span class="title">Contact</span> <span>+9199889988</span>
         </div>
+        <div>
+          <h3 class="detail-heading">Basic Details</h3>
+          <div>
+            <div class="inline">
+              <div>Name</div>
+              <div>Marco</div>
+            </div>
+            <div class="inline">
+              <div>Date Of Birth</div>
+              <div>02-Nov-1979</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="detail-heading">Contanct Details</h3>
+        </div>
+      </div>
     );
   }
 }
