@@ -16,7 +16,7 @@ export class ProfilePage {
           <h1>Marco</h1>
           <span class="title">Contact</span> <span>+9199889988</span>
         </div>
-        <div>
+        <div class="content">
           <h3 class="detail-heading">Basic Details</h3>
           <div>
             <div class="inline">
@@ -29,7 +29,7 @@ export class ProfilePage {
             </div>
           </div>
         </div>
-        <div>
+        <div class="content">
           <h3 class="detail-heading">Contact Details</h3>
           <div>
             <div class="inline">

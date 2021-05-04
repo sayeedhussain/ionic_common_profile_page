@@ -2,8 +2,13 @@
   font-family: sans-serif;
   background-color: white;
   height: 100vh;
-  margin: 10px;
+  color: black;
 }
+
+.content {
+  padding: 20px;
+}
+
 .hero {
   background-color: rgb(240, 240, 230);
   padding-bottom: 20px;
@@ -14,12 +19,13 @@
 .inline {
   display: inline-block;
   width: 30%;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
 }
 
 .label {
   font-weight: bold;
   color: gray;
+  margin-bottom: 5px;
 }
 .detail-heading{
   border-bottom:1px solid gray;
