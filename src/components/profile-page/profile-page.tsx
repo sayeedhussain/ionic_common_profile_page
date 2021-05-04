@@ -30,7 +30,7 @@ export class ProfilePage {
           </div>
         </div>
         <div>
-          <h3 class="detail-heading">Contanct Details</h3>
+          <h3 class="detail-heading">Contact Details</h3>
           <div>
             <div class="inline">
               <div class="label">Primay Email</div>
